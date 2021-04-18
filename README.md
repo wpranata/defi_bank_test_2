@@ -41,11 +41,44 @@ Another DeFi Bank test, this one works.
     * __chai-as-promised__
     * __lite-server__
   * __Setup lite-server__
-    > bs-config.json directories & package.json launch shortcuts
+    > __bs-config.json directories & package.json launch shortcuts__
 
-### Additional Tasks:
-* __Meeting every monday night__
-* __Learn more about AJAX await & async functions__
-* __Fix that vscode pragma error that is actually not an error thing__
+* ### Get Truffle to work
+  * __truffle init__
+    > initialize truffle development environment
+  * __truffle compile__
+    > compile w/ solc, to compile the smart contract
+  * __truffle migrate --reset__
+    > to re-deploy contracts (costs gas fee)
+  * __truffle console__
+    > console to interact with blockchain contracts
+  * __{var} = await {contract artifact name}.deployed()__
+    > Get deployed contract
+  * __{var}.{function}()__
+    > Call contract function
+
+* ### Finish web3 integration
+    * __Successfully connecting Ganache local blockchain, Metamask, and the website__
+    * __Successfully deposit and withdraw Ethers (with interests, in form of tokens)__
+
+### Things to reflect on:
+* Learn more about AJAX await & async functions
+* Fix that vscode pragma error that is actually not an error thing
+* Testing in Truffle is cool
+* Markdown readmes are cool
+* First attempt is not bad, will redo
 * Be more considerate with your frontend skills
 ``` "what's a 'frontend'?"```
+
+### What's next?
+* Add transfer token functionality
+* Deposit & Withdraw fractions (not all)
+* Handle events from contracts
+* Better testing methodologies
+* Better frontend (i promise)
+* Keep exploring, i guess
+
+### Helpful sources:
+https://www.youtube.com/watch?v=xWFba_9QYmc
+https://www.youtube.com/watch?v=itUrxH-rksc
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
