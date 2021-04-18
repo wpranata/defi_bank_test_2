@@ -1,0 +1,12 @@
+{
+    "server": {
+        "baseDir": [
+            "./web_files",
+            "./truffle_files/contracts",
+            "./truffle_files/build/contracts"
+        ],
+        "routes": {
+            "/vendor": "./node_modules"
+        }
+    }
+}
