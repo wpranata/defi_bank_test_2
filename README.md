@@ -11,6 +11,8 @@ Another DeFi Bank test, this one works.
     > Transactional agreement in code, basically: "if you run this function, you agree to all terms and conditions applied, and any reprecussions caused by running this function"
   * __Gas Fee__
     > Transactional cost (deployment, transactions, etc)
+  * __ERC20__
+    > Token standardization
   * __Solidity__
     > The language used to develop smart contracts
   * __Truffle__ 
@@ -35,11 +37,18 @@ Another DeFi Bank test, this one works.
 * ### Setup project
   * __Setup Node.js env__
   * __Install Node modules__
+    * __@openzeppelin/contracts__
+      > ERC20
     * __truffle__
+      > Compile, test, deploy contracts
     * __solc__
+      > Solidity compiler
     * __chai__
+      > Assertion library for testing
     * __chai-as-promised__
+      > Assertion library for testing
     * __lite-server__
+      > Frontend hosting
   * __Setup lite-server__
     > __bs-config.json directories & package.json launch shortcuts__
 
