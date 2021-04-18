@@ -41,7 +41,7 @@ Another DeFi Bank test, this one works.
     * __chai-as-promised__
     * __lite-server__
   * __Setup lite-server__
-    > __bs-config.json directories & package.json launch shortcuts__
+    > bs-config.json directories & package.json launch shortcuts
 
 ### Additional Tasks:
 * __Meeting every monday night__
