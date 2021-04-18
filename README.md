@@ -79,6 +79,6 @@ Another DeFi Bank test, this one works.
 * Keep exploring, i guess
 
 ### Helpful sources:
-https://www.youtube.com/watch?v=xWFba_9QYmc
-https://www.youtube.com/watch?v=itUrxH-rksc
-https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+* https://www.youtube.com/watch?v=xWFba_9QYmc
+* https://www.youtube.com/watch?v=itUrxH-rksc
+* https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
